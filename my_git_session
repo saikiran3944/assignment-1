@@ -1,0 +1,94 @@
+Script started on 2024-02-29 07:35:41+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="148" LINES="35"]
+[?2004h(base) ]0;saikiran@TIGER02851: ~/assignment-1[01;32msaikiran@TIGER02851[00m:[01;34m~/assignment-1[00m$ git config --list -- [Kshw[Kowlist[K[K[K[Ko[K-origin
+[?2004l[?1h=file:/home/saikiran/.gitconfig  user.name=Sai Kiran Badugu[m
+file:/home/saikiran/.gitconfig  user.email=saikiran.badugu@tigeranalytics.com[m
+file:/home/saikiran/.gitconfig  credential.helper=/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager-core.exe[m
+file:.git/config        core.repositoryformatversion=0[m
+file:.git/config        core.filemode=true[m
+file:.git/config        core.bare=false[m
+file:.git/config        core.logallrefupdates=true[m
+file:.git/config        remote.origin.url=git@github.com:saikiran3944/assignment-1.git[m
+file:.git/config        remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*[m
+file:.git/config        branch.main.remote=origin[m
+file:.git/config        branch.main.merge=refs/heads/main[m
+[K[?1l>[?2004h(base) ]0;saikiran@TIGER02851: ~/assignment-1[01;32msaikiran@TIGER02851[00m:[01;34m~/assignment-1[00m$ git config --globa;[Kl core.editor emacs
+[?2004l[?2004h(base) ]0;saikiran@TIGER02851: ~/assignment-1[01;32msaikiran@TIGER02851[00m:[01;34m~/assignment-1[00m$ [7mgit config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosessi[27m[7mo[27m[7mn -noPlugin"[27m[A(base) ]0;saikiran@TIGER02851: ~/assignment-1[01;32msaikiran@TIGER02851[00m:[01;34m~/assignment-1[00m$ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+[?2004l[?2004h(base) ]0;saikiran@TIGER02851: ~/assignment-1[01;32msaikiran@TIGER02851[00m:[01;34m~/assignment-1[00m$ git congif=[K[K[K[Kfig --gloab[K[Kbal init.defaultBranch main
+[?2004l[?2004h(base) ]0;saikiran@TIGER02851: ~/assignment-1[01;32msaikiran@TIGER02851[00m:[01;34m~/assignment-1[00m$ git oc[K[Ke[Kconfig --list
+[?2004l[?1h=user.name=Sai Kiran Badugu[m
+user.email=saikiran.badugu@tigeranalytics.com[m
+credential.helper=/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager-core.exe[m
+core.editor='C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin[m
+init.defaultbranch=main[m
+core.repositoryformatversion=0[m
+core.filemode=true[m
+core.bare=false[m
+core.logallrefupdates=true[m
+remote.origin.url=git@github.com:saikiran3944/assignment-1.git[m
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*[m
+branch.main.remote=origin[m
+branch.main.merge=refs/heads/main[m
+[K[?1l>[?2004h(base) ]0;saikiran@TIGER02851: ~/assignment-1[01;32msaikiran@TIGER02851[00m:[01;34m~/assignment-1[00m$ git config user.name
+[?2004lSai Kiran Badugu
+[?2004h(base) ]0;saikiran@TIGER02851: ~/assignment-1[01;32msaikiran@TIGER02851[00m:[01;34m~/assignment-1[00m$ git healp[K[K[Klp config
+[?2004l[?1049h[22;0;0t[?1h=GIT-CONFIG(1)                                                      Git Manual                                                      GIT-CONFIG(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--fixed-value] [--show-origin] [--show-scope] [-z|--null] name [value [value-pattern]][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --add name value[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--fixed-value] --replace-all name value [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-value] --get name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-value] --get-all name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-value] [--name-only] --get-regexp name_regex [[m value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [-z|--null] --get-urlmatch name URL[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--fixed-value] --unset name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--fixed-value] --unset-all name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --rename-section old_name new_name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --remove-section name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--show-origin] [--show-scope] [-z|--null] [--name-only] -l | --list[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-color name [default][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-colorbool name [stdout-is-tty][m
+       [4mgit[24m [4mconfig[24m [<file-option>] -e | --edit[m
+[m
+[1mDESCRIPTION[0m[m
+       You can query/set/replace/unset options with this command. The name is actually the section and the key separated by a dot, and the value[m
+       will be escaped.[m
+[m
+       Multiple lines can be added to an option by using the [1m--add[0m option. If you want to update or unset an option which can occur on multiple[m
+       lines, a [1mvalue-pattern[0m (which is an extended regular expression, unless the [1m--fixed-value[0m option is given) needs to be given. Only the[m
+       existing values that match the pattern are updated or unset. If you want to handle the lines that do [1mnot[0m match the pattern, just prepend[m
+       a single exclamation mark in front (see also the section called “EXAMPLES”), but note that this only works when the [1m--fixed-value[0m option[m
+       is not in use.[m
+[m
+       The [1m--type=<type>[0m option instructs [4mgit[24m [4mconfig[24m to ensure that incoming and outgoing values are canonicalize-able under the given <type>.[m
+[7m Manual page git-config(1) line 1 (press h for help or q to quit)[27m[K[K       If no [1m--type=<type>[0m is given, no canonicalization will be performed. Callers may unset an existing [1m--type[0m specifier with [1m--no-type[0m.[m
+[7m Manual page git-config(1) line 2 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h(base) ]0;saikiran@TIGER02851: ~/assignment-1[01;32msaikiran@TIGER02851[00m:[01;34m~/assignment-1[00m$ git add -h
+[?2004lusage: git add [<options>] [--] <pathspec>...
+
+    -n, --dry-run         dry run
+    -v, --verbose         be verbose
+
+    -i, --interactive     interactive picking
+    -p, --patch           select hunks interactively
+    -e, --edit            edit current diff and apply
+    -f, --force           allow adding otherwise ignored files
+    -u, --update          update tracked files
+    --renormalize         renormalize EOL of tracked files (implies -u)
+    -N, --intent-to-add   record only the fact that the path will be added later
+    -A, --all             add changes from all tracked and untracked files
+    --ignore-removal      ignore paths removed in the working tree (same as --no-all)
+    --refresh             don't add, only refresh the index
+    --ignore-errors       just skip files which cannot be added because of errors
+    --ignore-missing      check if - even missing - files are ignored in dry run
+    --sparse              allow updating entries outside of the sparse-checkout cone
+    --chmod (+|-)x        override the executable bit of the listed files
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+[?2004h(base) ]0;saikiran@TIGER02851: ~/assignment-1[01;32msaikiran@TIGER02851[00m:[01;34m~/assignment-1[00m$ git[K[K[Kls
+[?2004lREADME.md  [0m[01;34mdatasets[0m  my_git_session  my_unix_session
+[?2004h(base) ]0;saikiran@TIGER02851: ~/assign
